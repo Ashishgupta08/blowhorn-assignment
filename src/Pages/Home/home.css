@@ -1,0 +1,57 @@
+header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+header>h1{
+    margin: 0.65rem auto;
+    font-size: 2.25rem !important;
+    line-height: 1.5rem;
+}
+
+.heading-one{
+    color: var(--color-dark);
+    margin-top: 3rem;
+}
+
+.heading-two{
+    color: var(--color-primary);
+    margin-bottom: 1rem;
+}
+
+.header-text{
+    margin: 1.5rem auto;
+    text-align: center;
+    color: var(--color-light-text);
+}
+
+.header-btn{
+    position: relative;
+}
+
+.header-btn>button{
+    border: none;
+    padding: 1rem 1.5rem;
+    border-radius: 2rem;
+    font-size: 1.25rem;
+}
+
+.offer{
+    position: absolute;
+    right: 0.025rem;
+    top: -00.5rem;
+    font-size: 00.5rem;
+    background-color: #5FDCAF;
+    color: var(--color-white);
+    white-space: nowrap;
+    padding: 0.25em 0.5em;
+    border-radius: 0.5rem;
+}
+
+.link{
+    color: var(--color-primary);
+    margin: 1rem auto;
+    font-size: 0.75rem;
+}
