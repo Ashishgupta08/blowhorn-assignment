@@ -1,0 +1,47 @@
+.featcard{
+    background-color: var(--color-bg-gray);
+    padding: 2rem 0.5rem;
+    margin: 1rem 0.25rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border-radius: 1rem;
+    text-align: center;
+}
+
+.featicon{
+    align-self: center;
+    background-color: var(--color-blue);
+    color: var(--color-white);
+    border-radius: 50%;
+    padding: 0.5rem;
+    font-size: 1.5rem;
+}
+
+.feattitle{
+    align-self: center;
+    margin: 1rem;
+    white-space: nowrap;
+    font-size: 1rem;
+    font-weight: 600;
+    color: var(--color-dark);
+}
+
+.featdesc{
+    align-self: center;
+    color: var(--color-light-text);
+    font-size: 00.75rem;
+}
+
+@media only screen and (min-width: 769px) {
+
+    .featdesc{
+        padding: 0 2rem;
+        font-size: 0.90rem;
+    }
+
+    .featcard{
+        margin: 1rem 0.5rem;
+    }
+    
+}

@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700;800&display=swap');
+
+body {
+  margin: 0;
+  font-family: 'Open Sans', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  scroll-behavior: smooth;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+p{
+  margin: 0;
+  padding: 0;
+}
+
+ul, li{
+  margin: 0;
+  padding: 0;
+}
+
+a{
+  text-decoration: none;
+}
+
+a:visited, a:hover, a:active, a::before, a::after{
+  text-decoration: none;
+  color: inherit;
+}
+
+:root{
+  --color-white: #FFFFFF;
+  --color-dark: #111827;
+  --color-primary: #5754EA;
+  --color-blue: #3B82F6;
+  --color-bg-gray: #F3F4F6;
+  --color-text: #000000;
+  --color-light-text: #484E58;
+}
