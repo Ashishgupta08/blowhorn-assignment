@@ -118,6 +118,32 @@ header>h1{
     list-style-type: square;
 }
 
+.feature-section{
+    margin: 2.5rem auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.feature-heading{
+    align-self: center;
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: var(--color-dark);
+}
+
+.feature-text{
+    align-self: center;
+    font-size: 1rem;
+    color: var(--color-light-text);
+}
+
+.features{
+    align-self: center;
+    margin: 1rem auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
 
 @media only screen and (min-width: 769px){
 
@@ -182,6 +208,20 @@ header>h1{
 
     .offering-secondary-text{
         font-size: 1.10rem;
+    }
+
+    .feature-heading{
+        font-size: 2.5rem;
+    }
+    
+    .feature-text{
+        font-size: 1.25rem;
+    }
+
+    .features{
+        margin: 1rem 8rem;
+        grid-template-columns: 1fr 1fr 1fr;
+        padding: 0 2rem;
     }
 
 }

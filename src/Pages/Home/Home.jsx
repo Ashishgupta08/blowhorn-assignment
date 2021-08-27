@@ -2,8 +2,11 @@ import React from 'react'
 import './home.css'
 import img1 from '../../Utils/images/boost-productivity.jpg'
 import img2 from '../../Utils/images/automated-task.jpg'
+import { featureData } from '../../Utils/featuresData'
+import { FeatureCard } from '../../Components'
 
 export function Home() {
+
     return (
         <div>
             <header>
@@ -64,6 +67,17 @@ export function Home() {
                 <img src={img2} alt="Automated Task" className="offering-img" />
             </section>
 
+            <section className="feature-section">
+                <p className="feature-heading">Our Features</p>
+                <p className="feature-text">Check out our list of awesome features below.</p>
+                <div className="features">
+                    {
+                        featureData.map(
+                            feat => <FeatureCard key={feat.id} data={feat} />
+                        )
+                    }
+                </div>
+            </section>
         </div>
     )
 }
