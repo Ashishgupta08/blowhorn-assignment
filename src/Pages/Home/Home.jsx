@@ -3,7 +3,8 @@ import './home.css'
 import img1 from '../../Utils/images/boost-productivity.jpg'
 import img2 from '../../Utils/images/automated-task.jpg'
 import { featureData } from '../../Utils/featuresData'
-import { FeatureCard } from '../../Components'
+import { FeatureCard, Profilecard } from '../../Components'
+import teamMembers from '../../Utils/teamdata.json'
 
 export function Home() {
 
@@ -67,7 +68,7 @@ export function Home() {
                 <img src={img2} alt="Automated Task" className="offering-img" />
             </section>
 
-            <section className="feature-section">
+            <section className="feature-section" id="features">
                 <p className="feature-heading">Our Features</p>
                 <p className="feature-text">Check out our list of awesome features below.</p>
                 <div className="features">
@@ -76,6 +77,73 @@ export function Home() {
                             feat => <FeatureCard key={feat.id} data={feat} />
                         )
                     }
+                </div>
+            </section>
+
+            <section className="team-section" id="team">
+                <p className="team-text">Our Team</p>
+                <p className="team-heading">An incredible team of amazing individuals</p>
+                <div className="team-members">
+                    {
+                        teamMembers.map(
+                            member => <Profilecard key={member.id} data={member} />
+                        )
+                    }
+                </div>
+            </section>
+
+            <section className="blog-section" id="blog">
+                <p className="blog-heading">The Project Blog</p>
+                <p className="blog-text">Designs and layouts to help with your app.</p>
+                <div className="blog-article">
+                    <article>
+                        <div className="blog-content">
+                            <img src="https://cdn.pixabay.com/photo/2018/04/17/11/03/cocktail-3327242_960_720.jpg" alt="Juice" className="blog-img" />
+                            <p className="blog-title">Refreshing Designs</p>
+                            <p className="blog-tag">Resources</p>
+                            <p className="blog-matter">Quench satisfying designs to help your stir up emotion and tell a story.</p>
+                        </div>
+                    </article>
+                    <article>
+                        <div className="blog-content" style={{backgroundColor: "#667F80"}}>
+                            <img src="https://cdn.pixabay.com/photo/2020/05/15/19/37/book-5174879_960_720.jpg" alt="Books" className="blog-img" />
+                            <p className="blog-title">Reading Habit</p>
+                            <p className="blog-tag" style={{color: "#667F80"}}>Books</p>
+                            <p className="blog-matter">Quench satisfying designs to help your stir up emotion and tell a story.</p>
+                        </div>
+                    </article>
+                    <article>
+                        <div className="blog-content" style={{backgroundColor: "#7C080B"}}>
+                            <img src="https://cdn.pixabay.com/photo/2018/03/08/19/39/cup-3209625_960_720.jpg" alt="Juice" className="blog-img" />
+                            <p className="blog-title">Refreshing Designs</p>
+                            <p className="blog-tag" style={{color: "#7C080B"}}>Resources</p>
+                            <p className="blog-matter">Quench satisfying designs to help your stir up emotion and tell a story.</p>
+                        </div>
+                    </article>
+                    <article>
+                        <div className="blog-content-2">
+                            <img src="https://cdn.pixabay.com/photo/2016/03/09/09/17/desktop-1245714_960_720.jpg" alt="Juice" className="blog-img-2" />
+                            <p className="blog-title">Refreshing Designs</p>
+                            <p className="blog-tag" style={{backgroundColor: "#F87171", color: "#ffffff"}}>Inspiration</p>
+                            <p className="blog-matter">Quench satisfying designs to help your stir up emotion and tell a story.</p>
+                        </div>
+                    </article>
+                    <article>
+                        <div className="blog-content-2">
+                            <img src="https://cdn.pixabay.com/photo/2017/05/12/08/29/coffee-2306471_960_720.jpg" alt="Juice" className="blog-img-2" />
+                            <p className="blog-title">Coffee for Productivity</p>
+                            <p className="blog-tag" style={{backgroundColor: "#6293C7", color: "#ffffff"}}>Coffee</p>
+                            <p className="blog-matter">Quench satisfying designs to help your stir up emotion and tell a story.</p>
+                        </div>
+                    </article>
+                    <article>
+                        <div className="blog-content-2">
+                            <img src="https://cdn.pixabay.com/photo/2015/06/08/15/11/typewriter-801921_960_720.jpg" alt="Juice" className="blog-img-2" />
+                            <p className="blog-title">A Design Mindset</p>
+                            <p className="blog-tag" style={{backgroundColor: "#999B83", color: "#ffffff"}}>Resources</p>
+                            <p className="blog-matter">Quench satisfying designs to help your stir up emotion and tell a story.</p>
+                        </div>
+                    </article>
                 </div>
             </section>
         </div>

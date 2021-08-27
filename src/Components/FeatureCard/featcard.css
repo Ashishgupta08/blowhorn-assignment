@@ -1,7 +1,7 @@
 .featcard{
     background-color: var(--color-bg-gray);
     padding: 2rem 0.5rem;
-    margin: 1rem 0.5rem;
+    margin: 1rem 0.25rem;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -38,6 +38,10 @@
     .featdesc{
         padding: 0 2rem;
         font-size: 0.90rem;
+    }
+
+    .featcard{
+        margin: 1rem 0.5rem;
     }
     
 }

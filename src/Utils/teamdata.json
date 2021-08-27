@@ -1,0 +1,26 @@
+[
+    {
+        "id": 101,
+        "name": "Freedy Smith",
+        "designation": "CEO & Founder",
+        "img": "https://cdn.pixabay.com/photo/2013/07/13/10/07/man-156584_960_720.png"
+    },
+    {
+        "id": 102,
+        "name": "Carl Jones",
+        "designation": "CTO & Co-Founder",
+        "img": "https://cdn.pixabay.com/photo/2016/11/18/23/38/child-1837375_960_720.png"
+    },
+    {
+        "id": 103,
+        "name": "Susan Peterson",
+        "designation": "Marketing Director",
+        "img": "https://cdn.pixabay.com/photo/2013/07/13/10/07/man-156584_960_720.png"
+    }, 
+    {
+        "id": 104,
+        "name": "Tommy Barnes",
+        "designation": "Designer",
+        "img": "https://cdn.pixabay.com/photo/2016/11/18/23/38/child-1837375_960_720.png"
+    }
+]
