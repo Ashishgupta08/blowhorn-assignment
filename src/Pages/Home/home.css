@@ -9,6 +9,7 @@ header>h1{
     margin: 0.65rem auto;
     font-size: 2.25rem !important;
     line-height: 1.5rem;
+    font-weight: 800;
 }
 
 .heading-one{
@@ -24,6 +25,7 @@ header>h1{
 .header-text{
     margin: 1.5rem auto;
     text-align: center;
+    padding: 00.5rem 10%;
     color: var(--color-light-text);
 }
 
@@ -36,6 +38,7 @@ header>h1{
     padding: 1rem 1.5rem;
     border-radius: 2rem;
     font-size: 1.25rem;
+    cursor: pointer;
 }
 
 .offer{
@@ -54,4 +57,131 @@ header>h1{
     color: var(--color-primary);
     margin: 1rem auto;
     font-size: 0.75rem;
+    cursor: pointer;
+}
+
+.companies{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0.5rem 1rem;
+}
+
+.section-text{
+    color: var(--color-dark);
+    font-size: 1rem;
+    font-weight: bold;
+    margin-top: 3rem;
+    text-align: center;
+}
+
+.companies>img{
+    width: 10rem;
+    height: auto;
+}
+
+.offering-section{
+    margin-top: 3rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.offering-img{
+    width: 100%;
+    height: auto;
+}
+
+.offering-text{
+    margin: 0 3rem;
+    text-align: justify;
+}
+
+.offering-heading{
+    font-size: 1.25rem;
+    font-weight: 600;
+    margin: 1rem 0;
+    color: var(--color-dark);
+}
+
+.offering-primary-text{
+    font-size: 1.10rem;
+    margin-bottom: 1rem;
+}
+
+.offering-secondary-text{
+    font-size: 1rem;
+    color: var(--color-light-text) !important;
+    margin: 0 1rem;
+}
+
+.offering-secondary-text>li{
+    list-style-type: square;
+}
+
+
+@media only screen and (min-width: 769px){
+
+    header{
+        margin-top: 2.5rem;
+    }
+
+    .heading-one, .heading-two{
+        font-size: 4rem !important;
+        font-weight: 800 !important;
+        line-height: 4rem;
+    }
+
+    .header-text{
+        margin: 2rem 35%;
+        padding: 0.5rem 1.5rem !important;
+        text-align: center;
+        font-size: 1.10rem;
+    }
+
+    .offer{
+        padding: 00.15rem 1rem;
+        font-size: 00.65rem;
+        border-radius: 2rem;
+        right: -0.75rem;
+        top: -0.75rem;
+    }
+
+    .link{
+        font-size: 1rem;
+    }
+
+    .companies{
+        justify-content: center;
+        margin: 0.5rem auto;
+    }
+
+    .company-img{
+        margin: 0 1rem;
+    }
+
+    .offering-section{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        align-items: center;
+        margin: 0 2.5rem;
+    }
+
+    .offering-img{
+        width: 50%;
+        height: auto;
+    }
+    
+    .offering-heading{
+        font-size: 2rem;
+    }
+
+    .offering-primary-text{
+        font-size: 1.25rem;
+    }
+
+    .offering-secondary-text{
+        font-size: 1.10rem;
+    }
+
 }

@@ -10,6 +10,7 @@ nav>h1{
     font-size: 2rem;
     vertical-align: middle;
     margin: 00.5rem !important;
+    cursor: pointer;
 }
 
 .nav-options{
@@ -77,6 +78,7 @@ nav>h1{
     border-radius: 2rem;
     padding: 00.5rem 1rem;
     font-size: 1.10rem;
+    cursor: pointer;
 }
 
 .primary-btn{
