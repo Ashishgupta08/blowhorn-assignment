@@ -1,3 +1,3 @@
 # blowhorn-assignment
 
-Live URL - [here](https://blowhorn-assignment-by-ashish.netlify.app/)
+Live URL - [here](https://blowhorn-frontend-assignment.netlify.app/)
