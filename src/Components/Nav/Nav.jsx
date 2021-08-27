@@ -12,10 +12,10 @@ export function Nav() {
                 <div className="drawer">
                     <span className="separator">{separator}</span>
                     <ul className="nav-icons">
-                        <a href="/"><li>Home</li></a>
-                        <li>Features</li>
-                        <li>Blog</li>
-                        <li>Contact</li>
+                        <li><a href="/">Home</a></li>
+                        <li><a href="#features">Features</a></li>
+                        <li><a href="#blog">Blog</a></li>
+                        <li><a href="#footer">Contact</a></li>
                         <li className="search">{search}</li>
                     </ul>
                     <div className="nav-btn">

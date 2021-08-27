@@ -27,7 +27,7 @@ a{
   text-decoration: none;
 }
 
-a:visited, a:hover, a:active{
+a:visited, a:hover, a:active, a::before, a::after{
   text-decoration: none;
   color: inherit;
 }
